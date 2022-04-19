@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = 'https://www.weather.go.kr/w/eqk-vol/search/korea.do?schOption=&xls=0&startSize=&endSize=&startLat=&endLat=&startLon=&endLon=&lat=&lon=&dist=&keyword=&dpType=a'
+url = 'https://www.weather.go.kr/w/eqk-vol/search/korea.do?dpType=a'
         
 response = requests.get(url)
     
